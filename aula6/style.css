@@ -1,0 +1,51 @@
+.tabela {
+  border: 1px solid #3b3939;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+  border: 1px solid #3b3939;
+  padding: 8px;
+}
+
+.cabecalho {
+  background-color: #496938;
+  color: #f8f8cc;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 10px;
+}
+
+.grupo > label {
+  margin-bottom: 5px;
+}
+
+#mensagem {
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #496938;
+  border-radius: 10px;
+  color: #3c453c;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all 0.2s ease-in;
+}
+
+#mensagem:focus {
+  outline: none;
+  border: 2px solid #554402;
+  box-shadow: 0 0 50px 1px rgba(12, 12, 12, 1);
+}
+
+#mensagem:hover {
+  background-color: #49693842;
+}

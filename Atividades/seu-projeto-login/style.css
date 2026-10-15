@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: beige;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-card {
+  background-color: #e4e4cd;
+  color: #393937;
+  width: 100%;
+  max-width: 360px;
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px #3939377b;
+}
+
+.login-header h1 {
+  font-size: 26px;
+  font-weight: 750;
+  color: #2d2c2c;
+  margin-bottom: 7px;
+}
+
+.login-header p {
+  font-size: 13px;
+  color: #2d2c2c;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.senha-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.senha-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #393937;
+}
+
+.senha-group input {
+  width: 100%;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #d5d5aa;
+  background-color: #bbbbaa;
+  border: 1px solid #2d2c2c;
+  border-radius: 3px;
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.input-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #393937;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #d5d5aa;
+  background-color: #bbbbaa;
+  border: 1px solid #2d2c2c;
+  border-radius: 3px;
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.input-group input::placeholder {
+  color: #2d2c2c;
+}
+
+.botao-entrar {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background-color: #22228d;
+  color: antiquewhite;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botao-entrar:hover {
+  background-color: #2525a387;
+}
+
+.login-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.login-footer p {
+  font-size: 15px;
+  color: #2d2c2c;
+}
+
+.login-footer a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0e0edb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+  color: #0e0edb;
+}

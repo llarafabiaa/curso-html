@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faebd7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  height: 400px;
+  background-color: #dbafa3;
+  border-radius: 10px;
+  border: 2px dotted #47170a;
+  box-shadow: 0 4px 10px #a45d4b;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card-conteudo {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+}
+
+.card p {
+  color: #47170a;
+  line-height: 1;
+}
+
+.card .preco {
+  color: #104d0b;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #faebd7;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-imagem {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+  padding: 5px;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+  body {
+    background-color: #000000;
+  }
+  .card-conteudo h2 {
+    color: antiquewhite;
+    font-size: 18px;
+  }
+  .card {
+    background-color: #000000;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-color: aqua;
+  }
+}
